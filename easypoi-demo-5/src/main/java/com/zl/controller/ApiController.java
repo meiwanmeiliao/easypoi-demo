@@ -35,7 +35,6 @@ public class ApiController {
         importParams.setDataHanlder(handler);
         // 需要验证
         importParams.setNeedVerfiy(true);
-
         try {
             ExcelImportResult<UserDTO> result = ExcelImportUtil.importExcelMore(file.getInputStream(), UserDTO.class,
                     importParams);
