@@ -11,5 +11,13 @@
 
     <artifactId>easypoi-demo-5</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.1.26</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
